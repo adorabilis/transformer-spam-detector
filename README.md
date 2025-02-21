@@ -1,6 +1,6 @@
 # DistilBERT Spam Detector
 
-This project is a learning exercise focused on text classification using the DistilBERT transformer-based model. The goal is to explore the capabiities of natural language processing (NLP) in identifying spam messages. I also wanted to experiment with the Hugging Face Transformers library.
+This project is a learning exercise focused on text classification using the DistilBERT transformer-based model. The goal is to explore the capabilities of natural language processing (NLP) in identifying spam messages. I also wanted to experiment with the Hugging Face Transformers library.
 
 - I fined-tuned the DistilBERT base model on the SMS Spam Collection dataset which consists of spam and non-spam messages to create a binary classification model.
 - `Transformers` library was used to load the pre-trained model, tokenise the data, and train the model. Different hyperparameters were tested to optimise performance.
